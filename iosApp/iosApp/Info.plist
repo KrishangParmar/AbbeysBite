@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Abbey&#8217;s Bite</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIColorName</key>
+		<string>LaunchBackground</string>
+	</dict>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>arm64</string>
+	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Abbey’s Bite uses the camera so you can snap a photo of your meal for analysis.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Abbey’s Bite lets you pick an existing photo of your meal or a recipe cover from your library.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Voice mode uses the microphone so you can talk to your kitchen assistant hands-free.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Voice mode transcribes what you say so the assistant can answer.</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>SUPABASE_URL</key>
+	<string>$(SUPABASE_URL)</string>
+	<key>SUPABASE_ANON_KEY</key>
+	<string>$(SUPABASE_ANON_KEY)</string>
+	<key>REVENUECAT_IOS_API_KEY</key>
+	<string>$(REVENUECAT_IOS_API_KEY)</string>
+	<key>ONESIGNAL_APP_ID</key>
+	<string>$(ONESIGNAL_APP_ID)</string>
+</dict>
+</plist>

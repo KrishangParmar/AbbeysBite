@@ -1,0 +1,38 @@
+.gradle/
+build/
+*/build/
+captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+secrets.properties
+.env
+.local-secrets.env
+signing/
+*.keystore
+*.jks
+*.litertlm
+*.zip
+.DS_Store
+
+# Supplied handoff archives / extracted audit scratch are not project source.
+work-audit/
+/artifacts/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.kotlin/
+
+# iOS
+iosApp/Pods/
+iosApp/*.xcworkspace/xcuserdata/
+iosApp/*.xcodeproj/xcuserdata/
+iosApp/*.xcodeproj/project.xcworkspace/xcuserdata/
+iosApp/iosApp/Config/Secrets.xcconfig
+DerivedData/
+
+# Supabase local dev
+supabase/.temp/
+supabase/.branches/
