@@ -68,3 +68,13 @@ meaningfully better on mid-range hardware.
   generation continues; barge-in cancels generation immediately.
 - Generation is serialized (single-stream runtime) behind a mutex; stale Live
   turns are cancelled before a new turn starts.
+
+## Size decision — 2026-09-17
+
+The supplied `Gemma 3n E2B Instruct int4` bundle is already quantized and is
+3,655,827,456 bytes. The Play AAB contains no model bytes; the model is a
+separate post-install artifact. Keep the multimodal E2B baseline for physical
+testing and distribute it from a first-party CDN later, rather than replacing
+photo understanding with a smaller text-only model. No alternate compatible
+multimodal bundle was supplied or benchmarked in this pass. Use
+`MODEL_EVALUATION_SET.md` before changing it.
